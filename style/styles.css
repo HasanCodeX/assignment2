@@ -9,15 +9,31 @@ font-style: normal;
 font-weight: 800;
 line-height: normal;
 }
+.p-text{color: #5A5A5D;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;}
+
 .text-container{
   text-align: center;
+  color: #131318;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
 }
-
+.button-primary{width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #FF5400;}
 
 /* banner section */
 .banner{
-  position: relative;
-  text-align: center;
+
 
 }
 
@@ -41,16 +57,35 @@ display: grid;}
 /* why-choose-us secrion */
 
 .box{display: flex;}
-.cards{ display:grid;}
+.cards{ display:grid;
+}
+.card-text{color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;}
 
 /* newslatter-section */
 
 .newsletter{
   display: flex;}
+
+.newsbox{
+  width: 393px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+}
+.button-newsbox{border-radius: 8px;
+  background: #FF5400;width: 393px;
+  height: 52px;
+  flex-shrink: 0;
+
+}
 /* footer-sectin */
-.footer{ 
-  
-  width: 1440px;
-  height: 502px;
+.footer{  height: 502px;
+  width: auto;
   flex-shrink: 0;
   background: rgba(19, 19, 24, 0.05);}
