@@ -16,9 +16,12 @@ line-height: normal;
 
 /* banner section */
 .banner{
+  position: relative;
+  text-align: center;
 
 }
 
+/* our-popular-tour section */
 .our-popular-tour{
   display: flex;}
  
@@ -36,9 +39,7 @@ display: grid;}
   border: 10px solid white;}
 
 /* why-choose-us secrion */
-.why-choose-us{
-  
-}
+
 .box{display: flex;}
 .cards{ display:grid;}
 
@@ -47,4 +48,9 @@ display: grid;}
 .newsletter{
   display: flex;}
 /* footer-sectin */
-.footer{}
+.footer{ 
+  
+  width: 1440px;
+  height: 502px;
+  flex-shrink: 0;
+  background: rgba(19, 19, 24, 0.05);}
