@@ -36,8 +36,15 @@ display: grid;}
   border: 10px solid white;}
 
 /* why-choose-us secrion */
-.why-choose-us{}
+.why-choose-us{
+  
+}
+.box{display: flex;}
+.cards{ display:grid;}
 
-.newsletter{}
+/* newslatter-section */
 
+.newsletter{
+  display: flex;}
+/* footer-sectin */
 .footer{}
